@@ -1,0 +1,39 @@
+.VendingItem {
+    display: flex;
+    margin: auto;
+    height: 650px;
+    width: 1200px;
+    color: black;
+    border-radius: 5%;
+    border: solid black 4px;
+    box-shadow: 0 0 8px 2px #00ff00; /* Adjust the color and size of the glow */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h3 {
+    font-size: 1.5rem;
+    color: white;
+    background: rgba(25, 40, 40, 0.9);
+    padding: 10px;
+    border-radius: 5%;
+    border: solid black 1px;
+    transition: box-shadow 0.3s;
+}
+
+a {
+    width: 100px;
+}
+
+.bottle-cap {
+    background-image: url('../assets/caps.jpg');
+}
+
+.cheese {
+    background-image: url('../assets/cheese.jpg');
+}
+
+.radroach {
+    background-image: url('../assets/radroach.jpg');
+}

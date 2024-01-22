@@ -1,0 +1,38 @@
+.VendingMachine {
+    background-image: url('../assets/fallout_new_california_nuka.jpg');
+    margin: auto;
+    height: 650px;
+    width: 1200px;
+    color: black;
+    border-radius: 5%;
+    border: solid black 4px;
+    box-shadow: 0 0 8px 2px #00ff00; /* Adjust the color and size of the glow */
+    text-align: left;
+}
+
+.VendingMachine-Items {
+    font-size: 1.5rem;
+    margin-left: 65%;
+    margin-top: 15%;
+}
+
+.VendingMachine-Item {
+    margin: 7%;
+    margin-left: 0px;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    background: rgba(25, 40, 40, 0.9);
+    padding: 10px;
+    border-radius: 5%;
+    border: solid black 1px;
+    box-shadow: 0 0 5px 1px #00ff00; /* Adjust the color and size of the glow */
+    transition: box-shadow 0.3s;
+}
+
+a:hover {
+    box-shadow: 0 0 5px 1px #fafbfa; /* Adjust the color and size of the glow */
+}
